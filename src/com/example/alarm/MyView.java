@@ -32,7 +32,7 @@ public class MyView extends View {
 		mPaint.setStyle(Style.STROKE);
 		mPaint.setDither(true);
 		mPaint.setTextSize(25);
-
+		mPaint.setStrokeCap(Paint.Cap.ROUND);
 	}
 
 	@Override
